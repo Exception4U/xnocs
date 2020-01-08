@@ -1,0 +1,2 @@
+#### to run on standard server
+``` CUDA_VISIBLE_DEVICES=1 python nxm.py --mode train --input-dir /mnt/datanas02/tushar_vaidya_bkup/large_dataset_xnocs/ --output-dir /home/tvaidya/xnocs_op --expt-name XNOCS_SV --category cars --arch SegNetSkip --seed 0 --data-limit 3 --val-data-limit 3 --dataset ShapeNetCOCODataset ```
